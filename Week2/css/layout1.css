@@ -1,0 +1,47 @@
+#wrapper {
+	/* margin: top/bottom left/right  IF you use two values*/
+	/* margin: top left bottom right IF you use four value*/
+	margin: 0 auto;
+	width: 900px;
+}
+
+header {
+	
+}
+
+#middle-section {
+	
+}
+
+#main-content {
+	float: right;
+	margin-bottom: 10px;
+	width: 656px;
+}
+
+#main-content p {
+	color: green;
+}
+
+#sidebar {
+	float: left;
+	width: 176px;
+}
+
+.gray-bordered {
+	border: 2px solid gray;
+	padding: 10px;
+}
+
+#photo-text {
+	clear: both;
+}
+
+img {
+	float: left;
+}
+
+footer {
+
+}
+
