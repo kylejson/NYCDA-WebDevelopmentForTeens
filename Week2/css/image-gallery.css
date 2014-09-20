@@ -1,0 +1,20 @@
+#wrapper {
+	margin: 0 auto;
+	height: 1000px; /* To make the page scrollable */
+	width: 780px; /* ----> PAY ATTENTION <------ */
+}
+
+#image-gallery {
+	padding-top: 60px;
+}
+
+/* FLOAT, MARGINS */
+img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+header {
+	position: fixed;
+}
