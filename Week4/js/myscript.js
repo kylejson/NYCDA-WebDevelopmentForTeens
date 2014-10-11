@@ -88,8 +88,16 @@ console.log(answer);
 // alertName("kyle");
 
 var nameInput = prompt("Input youre name: ");
-console.log(nameInput);
+// console.log(nameInput);
 
 function party(name){
-
+	if(name == "Jared" || name == "jared"){
+		alert(name + " enjoy your pizza.");
+	}else if(name == "Daniel" || name == "daniel"){
+		alert(name + " enjoy your pop!");
+	}else{
+		alert(name + " enjoy your ice cream sir.");
+	}
 }
+
+party(nameInput);
