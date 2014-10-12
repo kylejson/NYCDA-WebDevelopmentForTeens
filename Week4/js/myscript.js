@@ -1,12 +1,4 @@
-/*
-	ALERTS
-*/
-
 // alert("hi");
-
-/*
-	FUNCTIONS
-*/
 
 // alert("Hi");
 // console.log("Hi");
