@@ -1,0 +1,12 @@
+.thing{
+  display: none;
+}
+
+button{
+  color: white;
+  border-radius: 10px;
+  background-color: navy;
+  font-size: 16px;
+  height: 60px;
+  width: 100px;
+}
