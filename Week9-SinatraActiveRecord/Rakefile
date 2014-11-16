@@ -1,0 +1,2 @@
+require 'sinatra/activerecord/rake'
+require './app' #This line is what links our activerecord and our application
