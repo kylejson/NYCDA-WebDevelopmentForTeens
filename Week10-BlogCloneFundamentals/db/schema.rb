@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141122182942) do
+ActiveRecord::Schema.define(version: 20141206164820) do
 
   create_table "posts", force: true do |t|
     t.integer "user_id"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20141122182942) do
   create_table "users", force: true do |t|
     t.string  "username"
     t.integer "profile"
+    t.text    "password"
   end
 
 end

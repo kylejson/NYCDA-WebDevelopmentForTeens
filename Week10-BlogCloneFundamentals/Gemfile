@@ -9,3 +9,4 @@ gem 'rake'
 gem 'sqlite3'
 gem 'bcrypt'
 gem 'shotgun'
+gem 'rack-flash3', :git => "git://github.com/treeder/rack-flash.git"
